@@ -109,7 +109,7 @@ body {
 
 
 .common-title {
-    font-family: 'Steppe-ExtraBold', sans-serif;
+    font-family: var(--font-extra);
     font-size: 60px;
     line-height: 100%;
     text-align: center;
@@ -224,14 +224,14 @@ body {
 }
 
 .products-item-title {
-    font-family: 'Steppe-ExtraBold' sans-serif;
+    font-family: var(--font-extra);
     font-size: 18px;
     margin-bottom: 20px;
 }
 
 .products-item-text {
     height: 110px;
-    font: 14px;
+    font-size: 14px;
     line-height: 120%;
     margin-bottom: 20px;
 }
